@@ -3,30 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;700&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="/styles/style.css" />
     <title>Dev-studio</title>
   </head>
   <body>
     <!--Шапка сайту-->
     <header>
       <nav>
-        <a href="./index.html"> DevStudio </a>
+        <a href="./index.html" class="logo"> <span>Dev</span>Studio </a>
         <ul>
-          <li><a href="./about.html">Про нас</a></li>
-          <li><a href="./portfolio.html">Портфоліо</a></li>
-          <li><a href="./contacts.html">Контакти</a></li>
+          <li><a href="./about.html" class="link nav">Про нас</a></li>
+          <li><a href="./portfolio.html" class="link nav">Портфоліо</a></li>
+          <li><a href="./contacts.html" class="link nav">Контакти</a></li>
         </ul>
       </nav>
       <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380680001100">+38 068 000 11 00</a></li>
+        <li>
+          <a href="mailto:info@devstudio.com " class="link contact"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a href="tel:+380680001100" class="link contact">+38 068 000 11 00</a>
+        </li>
       </ul>
     </header>
     <!--Герой-->
     <main>
       <section>
-        <h1>
-          Ми створюємо легкі рішення <br />складних завдань для вашого бізнесу
-        </h1>
+        <div>
+          <h1>
+            Ми створюємо легкі рішення <br />складних завдань для вашого бізнесу
+          </h1>
+        </div>
         <button type="button">Замовити послугу</button>
       </section>
 

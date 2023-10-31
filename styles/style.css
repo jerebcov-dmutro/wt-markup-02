@@ -1,0 +1,47 @@
+
+.logo
+{
+    text-decoration: none;
+    color:#000000;
+    font-size: 26px;
+    font-family: 'Raleway', sans-serif;
+    font-style: bold;
+}
+.logo > span
+{
+    color:#2196F3;
+}
+
+
+header .link
+{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+.link:hover
+{
+    color: #2196F3;
+}
+
+header .nav
+{
+   color: #212121;
+}
+
+header .contact
+{
+    color: #757575;
+}
+
+main h1
+{
+    color: #FFFFFF;    
+}
+main section
+{
+    background-color: 2F303A;
+    height: 600;
+    width: 100%;
+}
