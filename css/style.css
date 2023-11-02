@@ -1,6 +1,6 @@
 body {
-    padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px 0px;
+    margin: 0;
+    padding: 0;
 }
 
 ul {
@@ -13,39 +13,26 @@ button {
 
 .logo {
     text-decoration: none;
-    color: #000000;
+    color: #000;
     font-size: 26px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
 }
-
-.logo>span {
-    color: #2196F3;
-}
-
 
 header .link {
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sans-serif;
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
-}
-
-.link:hover {
-    color: #2196F3;
 }
 
 header .nav {
     color: #212121;
 }
 
-header .contact {
-    color: #757575;
-}
-
 main h1 {
-    font-family: 'Roboto', sans-serif;
-    color: #FFFFFF;
+    font-family: Roboto, sans-serif;
+    color: #FFF;
     font-size: 44px;
     font-weight: 900;
     text-transform: uppercase;
@@ -58,12 +45,11 @@ main h1 {
 }
 
 .m-background>button {
-
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sans-serif;
     height: 50px;
     width: 200px;
     background-color: #2196F3;
-    color: #FFFFFF;
+    color: #FFF;
     font-size: 16px;
     font-weight: 700px;
     border-radius: 4px;
@@ -79,7 +65,7 @@ main h1 {
 
 .accom {
     font-size: 14px;
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sans-serif;
 }
 
 .accom h3 {
@@ -87,12 +73,8 @@ main h1 {
     color: #212121;
 }
 
-.accom p {
-    color: #757575;
-}
-
 .worksektion h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sans-serif;
     font-weight: 700;
     font-size: 36px;
 }
@@ -102,7 +84,7 @@ main h1 {
 }
 
 .ourteam {
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sans-serif;
 }
 
 .ourteam h2 {
@@ -127,7 +109,7 @@ main h1 {
 .buttonlink {
     height: 44px;
     width: 44px;
-    background-color: #FFFFFF;
+    background-color: #FFF;
     border-radius: 40px;
 }
 
@@ -136,7 +118,7 @@ main h1 {
 }
 
 .buttonlink:hover .button-icon {
-    fill: #FFFFFF;
+    fill: #FFF;
 }
 
 .footerdiv {
@@ -146,14 +128,24 @@ main h1 {
 }
 
 footer p {
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 14px;
-    color: #FFFFFF;
+    color: #FFF;
 }
 
 .footercont {
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 14px;
     text-decoration: none;
+    color: #757575;
+}
+
+.logo>span,
+.link:hover {
+    color: #2196F3;
+}
+
+header .contact,
+.accom p {
     color: #757575;
 }
